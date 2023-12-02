@@ -1,2 +1,2 @@
-FROM openjdk:latest
+FROM adoptopenjdk: 15-jdk-hotspot
 RUN apt-get update && apt-get install -y maven
