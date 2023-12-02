@@ -137,6 +137,7 @@ public class Main {
             }
             System.out.println();
             System.out.printf("%s", animals[Integer.parseInt(val)]);
+            System.out.print("\n");
         } while (!val.equalsIgnoreCase("exit"));
 
         System.out.println("See you later!");
